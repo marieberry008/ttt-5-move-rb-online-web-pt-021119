@@ -10,7 +10,7 @@ def input_to_index(argument)
 argument = argument.to_i - 1
 end
 
-def update_array_at_with(array, index, value = 1)
+def update_array_at_with(array, index, value = "x")
   array[index] = value
 end
 
