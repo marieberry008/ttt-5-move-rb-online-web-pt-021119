@@ -11,6 +11,6 @@ argument = argument.to_i - 1
 end
 
 board = [” “, ” “, ” “]
-def update_array_at_with(array, index, value)
+def update_array_at_with(array, index, value = x)
  board[0]] = X
 end
