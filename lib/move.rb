@@ -10,7 +10,6 @@ def input_to_index(argument)
 argument = argument.to_i - 1
 end
 
-board = [” “, ” “, ” “]
-def update_array_at_with(array, index, value = x)
- board[0]] = X
+def move(update_array_at_with)
+ update_array_at_with.to be_truthy
 end
