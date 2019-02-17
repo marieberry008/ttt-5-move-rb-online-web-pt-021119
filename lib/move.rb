@@ -10,6 +10,11 @@ def input_to_index(argument)
 argument = argument.to_i - 1
 end
 
-def update_array_at_with(array, index, value)
-  value = x
+board = [" ", " ", " "]
+def update_array_at_with(array, index, value = "x")
+  array[index] = value
 end
+ 
+update_array_at_with(board, 0, "X")
+# The element at index 0 of array 'board' is set to the value "X"
+board #=> ["X", " ", " "]
